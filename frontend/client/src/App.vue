@@ -7,16 +7,16 @@ import Footer from './components/Footer.vue'
 
 <template>
   <div class="bg-gray-200">
-  <header>
+    <header>
       <nav>
         <Navbar />
       </nav>
-  </header>
-  <RouterView />
-  <footer>
-    <Footer />
-  </footer>
-</div>
+    </header>
+    <RouterView />
+    <footer>
+      <Footer />
+    </footer>
+  </div>
 </template>
 
 <style scoped>

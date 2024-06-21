@@ -5,9 +5,11 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <div>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 h-28">
             <div class="navbar-start">
-                <img src="" alt="Logo">
+                <RouterLink to="/">
+                    <img src="../assets/images/logo.png" alt="Logo" class="logo h-20">
+                </RouterLink>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -48,5 +50,11 @@ import { RouterLink } from 'vue-router';
 .dropdown {
     position: relative;
     z-index: 1000;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 12px;
 }
 </style>
