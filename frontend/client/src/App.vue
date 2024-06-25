@@ -11,7 +11,7 @@ import Footer from './components/Footer.vue'
       <nav>
         <Navbar />
       </nav>
-    </header>
+    </header >
     <RouterView />
     <footer>
       <Footer />
