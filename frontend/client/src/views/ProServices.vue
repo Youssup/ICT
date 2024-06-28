@@ -27,7 +27,7 @@
                     </header>
                 </div>
             </div>
-            <img src="../assets/images/proServices.png" alt="Leafs"
+            <img src="../assets/images/pro-services/proServices.png" alt="Leafs"
                 class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
         </div>
     </div>
@@ -35,7 +35,7 @@
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/communication.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/communication.jpg" alt="image" />
             </div>
             <div
                 class="lg:w-[50%] xs:w-full bg-gray-100  md:p-4 xs:p-0 rounded-md flex flex-col justify-center items-center">
@@ -59,14 +59,14 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/integration.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/integration.jpg" alt="image" />
             </div>
         </div>
 
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/securityCompliance.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/pro-services/securityCompliance.jpg"
                     alt="image" />
             </div>
             <div
@@ -91,13 +91,13 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/performanceTuning.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/performanceTuning.jpg" alt="image" />
             </div>
         </div>
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/maintenance.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/pro-services/maintenance.jpg"
                     alt="image" />
             </div>
             <div
@@ -123,13 +123,13 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/solution.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/solution.jpg" alt="image" />
             </div>
         </div>
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/training.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/pro-services/training.jpg"
                     alt="image" />
             </div>
             <div
@@ -154,7 +154,7 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/projectManagement.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/projectManagement.jpg" alt="image" />
             </div>
         </div>
     </section>

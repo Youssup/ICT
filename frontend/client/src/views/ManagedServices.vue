@@ -26,14 +26,14 @@
                     </header>
                 </div>
             </div>
-            <img src="../assets/images/managed.png" alt="Leafs" class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
+            <img src="../assets/images/managed-services/managed.png" alt="Leafs" class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
         </div>
     </div>
     <section class="w-full mx-auto py-10 :text-white">
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/proactiveMonitoring.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/proactiveMonitoring.jpg" alt="image" />
             </div>
             <div
                 class="lg:w-[50%] xs:w-full bg-gray-100  md:p-4 xs:p-0 rounded-md flex flex-col justify-center items-center">
@@ -57,7 +57,7 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/systemAdministration.jpg"
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/systemAdministration.jpg"
                     alt="image" />
             </div>
         </div>
@@ -65,7 +65,7 @@
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/securityManagement.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/managed-services/securityManagement.jpg"
                     alt="image" />
             </div>
             <div
@@ -91,13 +91,13 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/update.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/update.jpg" alt="image" />
             </div>
         </div>
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/backup.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/managed-services/backup.jpg"
                     alt="image" />
             </div>
             <div
@@ -123,13 +123,13 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/performance.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/performance.jpg" alt="image" />
             </div>
         </div>
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/management.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/managed-services/management.jpg"
                     alt="image" />
             </div>
             <div
@@ -153,13 +153,13 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/reports.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/reports.jpg" alt="image" />
             </div>
         </div>
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
             <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/service.jpg"
+                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="../assets/images/managed-services/service.jpg"
                     alt="image" />
             </div>
             <div
@@ -183,7 +183,7 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/account.jpg" alt="image" />
+                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/managed-services/account.jpg" alt="image" />
             </div>
         </div>
     </section>
