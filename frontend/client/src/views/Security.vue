@@ -12,6 +12,15 @@ import TextAndImage from '@/components/template/TextAndImage.vue';
       :main-text="'Our experts work closely with your team to develop a robust UC strategy that aligns with your business objectives. We assess your current infrastructure, identify gaps, and design a roadmap to ensure seamless integration and scalability.'"
       :position="'left'"
     />
+
+    <TextAndImage 
+      :image="'src/assets/images/account.jpg'"
+      :header-text="'Unified Communications Strategy and Planning'"
+      :main-text="'Our experts work closely with your team to develop a robust UC strategy that aligns with your business objectives. We assess your current infrastructure, identify gaps, and design a roadmap to ensure seamless integration and scalability.'"
+      :position="'right'" 
+    />
+
+
   </div>
 </template>
 
