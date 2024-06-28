@@ -12,7 +12,7 @@
 <template>
   <!-- image on the left -->
   
-  <div v-if="$props.position==='left'">
+  <div v-if="$props.position==='left' || $props.position===null">
 
     <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
       <div class="lg:w-[50%] xs:w-full">
