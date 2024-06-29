@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Header from '@/components/template/Header.vue';
+
 
 </script>
 
@@ -27,10 +29,23 @@
                     </header>
                 </div>
             </div>
-            <img src="../assets/images/pro-services/proServices.png" alt="Leafs"
+            <img src="@/assets/images/pro-services/proServices.png" alt="Leafs"
                 class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
         </div>
+
+        <Header 
+          :title-one="'Find your'"
+          :blue-text="'Professional Services'"
+          :title-two="'with us'"
+          :paragraph-text="'At Insight Collab Technologies (ICT), LLC, we offer comprehensive professional services designed to elevate your organization\'s communications infrastructure. Our team of seasoned IT professionals specializes in Unified Communications (UC), delivering tailored solutions that enhance stability, security, and performance.'"
+          :button-text="'Call to action'"
+          :imageFolder="'pro-services'"
+          :imageName="'proServices.png'"
+        />
+
     </div>
+
+
     <section class="w-full mx-auto py-10 :text-white">
         <div
             class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
@@ -59,7 +74,7 @@
             </div>
 
             <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="../assets/images/pro-services/integration.jpg" alt="image" />
+                <!-- <img class="lg:rounded-t-lg xs:rounded-sm" src="pro-services/integration" alt="image" /> -->
             </div>
         </div>
 

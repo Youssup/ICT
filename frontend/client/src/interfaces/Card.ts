@@ -1,5 +1,6 @@
 export interface Card {
-  image: string,
+  imageFolder: string,
+  imageName: string,
   header: string,
   text: string,
   position?: string

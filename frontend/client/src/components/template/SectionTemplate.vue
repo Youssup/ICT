@@ -1,13 +1,11 @@
 <script setup lang="ts">
   import type {Card} from 'src/interfaces/Card'
-  import { ref, type PropType, onUpdated } from 'vue';
+  import {  type PropType } from 'vue';
   import CardBlock from './CardBlock.vue';
-
-  let count = ref(0)
   
 
   defineProps({
-    cards: Object as PropType<Card[]>,
+    cards: Object as PropType<Card[]>
   })
 </script>
 
@@ -20,7 +18,8 @@
       <CardBlock
         :headerText="card.header"
         :mainText="card.text"
-        :image="card.image"
+        :imageName="card.imageName"
+        :imageFolder="card.imageFolder"
         :position="'left'"
       />
       <!-- <CardBlock id="countId" v-if="count % 2 != 0"

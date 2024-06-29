@@ -1,12 +1,20 @@
 <script setup lang="ts">
+  
+
   defineProps({
     titleOne: String,
     blueText: String,
     titleTwo: String,
     paragraphText: String,
-    image: String,
+    imageFolder: String,
+    imageName: String,
     buttonText: String
   })
+
+  function getImageUrl(imageName: String, imageFolder: String) {
+    // This path must be correct for your file
+    return new URL(`../../assets/images/${imageFolder}/${imageName}`, import.meta.url)
+  }
 
 </script>
 
@@ -32,5 +40,10 @@
           </header>
       </div>
     </div>
+    <img 
+      class="w-full h-48 object-cover sm:h-screen sm:w-4/12"
+      :src="getImageUrl($props.imageName!, $props.imageFolder!).toString()"
+      alt="Leafs" 
+    />
   </div>
 </template>
