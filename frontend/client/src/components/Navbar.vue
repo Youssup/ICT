@@ -13,7 +13,7 @@ import { RouterLink } from 'vue-router';
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <RouterLink to="/collaberation">
+                    <RouterLink to="/collaboration">
                         <li class="btn-lg"><a class="text-xl">Collaboration</a></li>
                     </RouterLink>
                     <RouterLink to="/networking">
