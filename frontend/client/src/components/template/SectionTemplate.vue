@@ -15,19 +15,12 @@
 
   <section class="w-full mx-auto py-10 :text-white">
     <div v-for="card in cards">
-      <CardBlock v-if="card.position === 'left' || card.position === null"
+      <CardBlock 
         :headerText="card.header"
         :mainText="card.text"
         :imageName="card.imageName"
         :imageFolder="card.imageFolder"
-        :position="'left'"
-      />
-      <CardBlock v-if="card.position === 'right'"
-        :headerText="card.header"
-        :mainText="card.text"
-        :imageName="card.imageName"
-        :imageFolder="card.imageFolder"
-        :position="'right'"
+        :position="card.position"
       />
     </div>
   </section>
