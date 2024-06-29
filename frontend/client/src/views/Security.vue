@@ -31,8 +31,8 @@ import CardBlock from '@/components/template/CardBlock.vue';
           text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit'
         },
         {
-          imageFolder: 'managed-services',
-          imageName: 'account.jpg',
+          imageFolder: 'misc/',
+          imageName: 'bg.jpg',
           header: 'goodbye',
           text: 'Deserunt cupidatat magna magna sit labore nisi duis esse laborum nulla. Veniam occaecat mollit labore nisi do. Eu amet ipsum elit cillum eu occaecat exercitation sint labore tempor. Proident ex ullamco qui elit. Ea anim ullamco reprehenderit culpa dolor ea consequat pariatur sint.'
         }

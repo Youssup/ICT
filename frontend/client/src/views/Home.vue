@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import bg from '../assets/images/bg.jpg';
+import bg from '../assets/images/misc/bg.jpg';
 import Contact from '../components/Contact.vue';
 </script>
 
