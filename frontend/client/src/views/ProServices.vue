@@ -1,31 +1,24 @@
 <script setup lang="ts">
 import Header from '@/components/template/Header.vue';
 import SectionTemplate from '@/components/template/SectionTemplate.vue';
-
+import OurVision from '@/components/template/OurVision.vue';
 </script>
 
 <template>
     <div>
-        <Header 
-          :title-one="'Find your'"
-          :blue-text="'Professional Services'"
-          :title-two="'with us'"
-          :paragraph-text="'At Insight Collab Technologies (ICT), LLC, we offer comprehensive professional services designed to elevate your organization\'s communications infrastructure. Our team of seasoned IT professionals specializes in Unified Communications (UC), delivering tailored solutions that enhance stability, security, and performance.'"
-          :button-text="'Call to action'"
-          :imageFolder="'pro-services'"
-          :imageName="'proServices.png'"
-        />
+        <Header :title-one="'Find your'" :blue-text="'Professional Services'" :title-two="'with us'"
+            :paragraph-text="'At Insight Collab Technologies (ICT), LLC, we offer comprehensive professional services designed to elevate your organization\'s communications infrastructure. Our team of seasoned IT professionals specializes in Unified Communications (UC), delivering tailored solutions that enhance stability, security, and performance.'"
+            :button-text="'Call to action'" :imageFolder="'pro-services'" :imageName="'proServices.png'" />
 
     </div>
 
-    <SectionTemplate 
-      :cards="[
+    <SectionTemplate :cards="[
         {
-          imageFolder: 'pro-services',
-          imageName: 'communication.jpg',
-          header: 'Unified Communications Strategy and Planning',
-          text: 'Our experts work closely with your team to develop a robust UC strategy that aligns with your business objectives. We assess your current infrastructure, identify gaps, and design a roadmap to ensure seamless integration and scalability.',
-          position: 'left'
+            imageFolder: 'pro-services',
+            imageName: 'communication.jpg',
+            header: 'Unified Communications Strategy and Planning',
+            text: 'Our experts work closely with your team to develop a robust UC strategy that aligns with your business objectives. We assess your current infrastructure, identify gaps, and design a roadmap to ensure seamless integration and scalability.',
+            position: 'left'
         },
         {
             imageFolder: 'pro-services',
@@ -76,9 +69,9 @@ import SectionTemplate from '@/components/template/SectionTemplate.vue';
             text: 'Our experienced project managers oversee every aspect of your UC projects, from planning to execution. We ensure projects are delivered on time, within budget, and to your exact specifications.',
             position: 'right'
         },
-      ]"
-    />
-
-    </template>
+    ]" />
+    <OurVision
+        :text="'By choosing ICT, you benefit from our extensive experience, commitment to quality, and a customer-centric approach that ensures your success in achieving superior communication capabilities.'" />
+</template>
 
 <style scoped></style>

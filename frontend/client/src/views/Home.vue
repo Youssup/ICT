@@ -6,7 +6,7 @@ import Contact from '../components/Contact.vue';
 <template>
     <div>
         <div class="welcome">
-                <div class="hero min-h-screen relative" :style="{ backgroundImage: `url(${bg})` }">
+            <div class="hero min-h-screen relative" :style="{ backgroundImage: `url(${bg})` }">
                 <div class="absolute inset-0" style="background: linear-gradient(to top, transparent 60%, white 100%);">
                 </div>
                 <div class="hero-overlay bg-opacity-60"></div>

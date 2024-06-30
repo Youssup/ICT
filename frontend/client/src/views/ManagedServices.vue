@@ -1,27 +1,21 @@
 <script setup lang="ts">
-  import Header from '@/components/template/Header.vue';
-  import SectionTemplate from '@/components/template/SectionTemplate.vue';
+import Header from '@/components/template/Header.vue';
+import OurVision from '@/components/template/OurVision.vue';
+import SectionTemplate from '@/components/template/SectionTemplate.vue';
 </script>
 
 <template>
-    <Header 
-        :title-one="'Find your'"
-        :blue-text="'Managed Services'"
-        :title-two="'with us'"
+    <Header :title-one="'Find your'" :blue-text="'Managed Services'" :title-two="'with us'"
         :paragraph-text="'At Insight Collab Technologies (ICT), LLC, our Managed Services are designed to provide your organization with comprehensive, proactive IT support and management, ensuring that your communication systems remain robust, secure, and efficient. Our team of IT professionals specializes in Unified Communications (UC), offering a range of services that cater to the unique needs of your business.'"
-        :button-text="'Call to action'"
-        :imageFolder="'managed-services'"
-        :imageName="'managed.png'"
-    />
+        :button-text="'Call to action'" :imageFolder="'managed-services'" :imageName="'managed.png'" />
 
-    <SectionTemplate 
-      :cards="[
+    <SectionTemplate :cards="[
         {
-          imageFolder: 'managed-services',
-          imageName: 'proactiveMonitoring.jpg',
-          header: 'Proactive Monitoring and Maintenance',
-          text: 'We utilize advanced monitoring tools to keep a vigilant eye on your UC systems 24/7. This proactive approach allows us to detect and resolve potential issues before they impact your operations, ensuring optimal performance and minimal downtime.',
-          position: 'left'
+            imageFolder: 'managed-services',
+            imageName: 'proactiveMonitoring.jpg',
+            header: 'Proactive Monitoring and Maintenance',
+            text: 'We utilize advanced monitoring tools to keep a vigilant eye on your UC systems 24/7. This proactive approach allows us to detect and resolve potential issues before they impact your operations, ensuring optimal performance and minimal downtime.',
+            position: 'left'
         },
         {
             imageFolder: 'managed-services',
@@ -86,9 +80,10 @@
             text: 'Every client is assigned a dedicated account manager who serves as your primary point of contact. Your account manager ensures that your needs are met and coordinates all services, providing personalized support and attention.',
             position: 'right'
         }
-      ]"
-    />
+    ]" />
 
+    <OurVision
+        :text="'By choosing ICT\'s Managed Services, you benefit from our extensive expertise, proactive approach, and commitment to excellence. Let us manage your UC environment, so you can focus on what you do best—growing your business.'" />
 </template>
 
 <style scoped></style>

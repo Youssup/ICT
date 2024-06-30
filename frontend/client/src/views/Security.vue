@@ -8,50 +8,27 @@ import Header from '@/components/template/Header.vue';
 
 <template>
   <div>
-    <Header 
-      :title-one="'In cillum'"
-      :blue-text="'irure aute'"
-      :title-two="'amet sint'"
-      :paragraph-text="'Qui qui adipisicing cillum labore. In consectetur excepteur consectetur dolore pariatur eu aliquip. Culpa ea fugiat reprehenderit elit incididunt laborum consequat aliqua nostrud commodo exercitation veniam. Amet excepteur laboris excepteur excepteur deserunt culpa officia. Veniam do sit eiusmod ex ipsum sit laborum nisi cupidatat consectetur. Proident excepteur nisi excepteur mollit culpa anim.'"
-      :image-folder="'misc'"
-      :image-name="'dummy.png'"
-    />
-    <SectionTemplate 
-      :cards="[
-        {
-          imageFolder: 'misc',
-          imageName: 'dummy.png',
-          header: 'Officia do ut sunt pariatur aliqua culpa.',
-          text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-          position: 'left'
-        },
-        {
-          imageFolder: 'misc',
-          imageName: 'dummy.png',
-          header: 'Amet ullamco sunt ea deserunt deserunt elit labore aliquip.',
-          text: 'Esse aliquip consequat occaecat ad. Cillum nisi nisi culpa nostrud eiusmod minim officia elit anim consectetur. Ullamco nostrud quis et sit occaecat enim pariatur. Non anim minim cillum voluptate est velit nostrud eu fugiat fugiat anim aliquip minim nisi. Labore velit amet consectetur aute mollit ad ut.',
-          position: 'right'
-        },
-        {
-            imageFolder: 'misc',
-            imageName: 'dummy.png',
-            header: 'Officia do ut sunt pariatur aliqua culpa.',
-            text: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-            position: 'left'
-          },
-          {
-            imageFolder: 'misc',
-            imageName: 'dummy.png',
-            header: 'Amet ullamco sunt ea deserunt deserunt elit labore aliquip.',
-            text: 'Esse aliquip consequat occaecat ad. Cillum nisi nisi culpa nostrud eiusmod minim officia elit anim consectetur. Ullamco nostrud quis et sit occaecat enim pariatur. Non anim minim cillum voluptate est velit nostrud eu fugiat fugiat anim aliquip minim nisi. Labore velit amet consectetur aute mollit ad ut.',
-            position: 'right'
-          }
-      ]"
-    />
+    <Header :title-one="'Find your'" :blue-text="'Security Services'" :title-two="'with us'"
+      :paragraph-text="'sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text'"
+      :button-text="'Call to action'" :image-folder="'security'" :image-name="'security.png'" />
+    <SectionTemplate :cards="[
+      {
+        imageFolder: 'security',
+        imageName: 'security1.jpg',
+        header: 'sample title',
+        text: 'As technology advances, the need for robust and dependable cybersecurity becomes more critical. Our team has decades of experience in the IT sector, allowing us to stay ahead of these changes.',
+        position: 'left'
+      },
+      {
+        imageFolder: 'security',
+        imageName: 'secuirty2.jpg',
+        header: 'sample title',
+        text: 'Our cybersecurity solutions are comprehensive and specifically tailored for K-12 educational settings. We address the unique challenges that schools face in protecting their digital infrastructure. Our services include threat detection, prevention, and response strategies. We also offer ongoing support and training to ensure schools remain secure. By partnering with us, schools can focus on education while we handle their cybersecurity needs. Our commitment is to provide peace of mind through advanced, reliable protection for K-12 campuses.',
+        position: 'right'
+      }
+    ]" />
 
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
