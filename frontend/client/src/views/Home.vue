@@ -1,42 +1,11 @@
 <script setup lang="ts">
-import bg from '../assets/images/bg.jpg';
+import bg from '../assets/images/misc/bg.jpg';
 import Contact from '../components/Contact.vue';
 </script>
 
 <template>
     <div>
         <div class="welcome">
-            <!--<div class="hero min-h-screen relative" :style="{ backgroundImage: `url(${bg})` }">
-                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-transparent via-white"></div>
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">ICT</h1>
-                        <h1 class="mb-5 text-5xl font-bold">Insight Collaberative Technologies</h1>
-                        <p class="mb-5">Mission statement sample text sample text sample text sample text sample text
-                            sample text sample text sample text sample text sample text sample text sample text sample
-                            text sample text sample text sample text</p>
-                        <button class="btn btn-primary">Call to action button</button>
-                    </div>
-                </div>
-            </div>
-            -->
-            <!--
-                <div class="hero min-h-screen relative" :style="{ backgroundImage: `url(${bg})` }">
-                <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 10%, white 100%);"></div>
-                <div class="hero-overlay bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                    <div class="max-w-md">
-                        <h1 class="mb-5 text-5xl font-bold">ICT</h1>
-                        <h1 class="mb-5 text-5xl font-bold">Insight Collaberative Technologies</h1>
-                        <p class="mb-5">Mission statement sample text sample text sample text sample text sample text
-                            sample text sample text sample text sample text sample text sample text sample text sample
-                            text sample text sample text sample text</p>
-                        <button class="btn btn-primary">Call to action button</button>
-                    </div>
-                </div>
-            </div>
-            -->
             <div class="hero min-h-screen relative" :style="{ backgroundImage: `url(${bg})` }">
                 <div class="absolute inset-0" style="background: linear-gradient(to top, transparent 60%, white 100%);">
                 </div>

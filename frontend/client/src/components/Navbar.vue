@@ -8,12 +8,15 @@ import { RouterLink } from 'vue-router';
         <div class="navbar bg-base-100 h-28">
             <div class="navbar-start">
                 <RouterLink to="/">
-                    <img src="../assets/images/logo.png" alt="Logo" class="logo h-20">
+                    <img src="../assets/images/misc/logo.png" alt="Logo" class="logo h-20">
                 </RouterLink>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <RouterLink to="/collaberation">
+                    <RouterLink to="/">
+                        <li class="btn-lg"><a class="text-xl">Home</a></li>
+                    </RouterLink>
+                    <RouterLink to="/collaboration">
                         <li class="btn-lg"><a class="text-xl">Collaboration</a></li>
                     </RouterLink>
                     <RouterLink to="/networking">

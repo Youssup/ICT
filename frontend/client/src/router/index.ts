@@ -10,9 +10,9 @@ const router = createRouter({
       component: Home
     },
     {
-      path: '/collaberation',
-      name: 'collaberation',
-      component: () => import('../views/Collaberation.vue')
+      path: '/collaboration',
+      name: 'collaboration',
+      component: () => import('../views/Collaboration.vue')
     },
     {
       path: '/networking',
@@ -41,5 +41,7 @@ const router = createRouter({
     }
   ]
 })
+
+
 
 export default router
