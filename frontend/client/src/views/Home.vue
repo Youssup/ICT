@@ -34,7 +34,7 @@ import Contact from '../components/Contact.vue';
             </div>
         </div>
         <div class="who px-2 py-10">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center mt-12 mb-12">Why Choose Us</h2>
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 text-center mt-14 mb-14">Why Choose Us</h2>
             <div
                 class="container mx-auto max-w-8xl flex gap-12 flex-wrap items-start justify-center md:justify-between">
                 <div class="flex space-x-40">
